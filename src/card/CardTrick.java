@@ -19,6 +19,7 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        Random random = new Random();
         Card[] magicHand = new Card[7];
         
         for (int i=0; i<magicHand.length; i++)
@@ -64,9 +65,9 @@ public class CardTrick {
         luckyCard.setSuit("Clubs");
 
         // Hard-coded lucky card: change from 2 of Clubs to 10 of Diamonds
-       Card luckyCard = new Card();
-       luckyCard.setValue(10);  // Change the value to 10
-       luckyCard.setSuit("Diamonds");  // Change the suit to Diamonds
+       // Card luckyCard = new Card();
+       //luckyCard.setValue(10);  // Change the value to 10
+       //luckyCard.setSuit("Diamonds");  // Change the suit to Diamonds
 
         
         // Check if the lucky card is in the magic hand
@@ -92,4 +93,4 @@ public class CardTrick {
         // add one luckcard hard code 2,clubs
     }
     
-}
+
